@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<!DOCTYPE lolz [
+<!ENTITY test SYSTEM "https://example.com/entity1.xml">]>
+<lolz><lol>3..2..1...&test<lol></lolz>

