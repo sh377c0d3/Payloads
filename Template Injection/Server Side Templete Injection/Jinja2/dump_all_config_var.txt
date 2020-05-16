@@ -1,0 +1,4 @@
+{% for key, value in config.iteritems() %}
+    <dt>{{ key|e }}</dt>
+    <dd>{{ value|e }}</dd>
+{% endfor %}
