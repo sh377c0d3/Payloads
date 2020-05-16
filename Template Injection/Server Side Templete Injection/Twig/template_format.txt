@@ -1,0 +1,9 @@
+$output = $twig > render (
+  'Dear' . $_GET['custom_greeting'],
+  array("first_name" => $user.first_name)
+);
+
+$output = $twig > render (
+  "Dear {first_name}",
+  array("first_name" => $user.first_name)
+);
