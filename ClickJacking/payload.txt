@@ -4,6 +4,6 @@
 </head>
 <body>
 <p> Website is vulnerable to clickjacking! </p>
-<iframe src="https://github.com" width="800" height="600"></iframe>
+<iframe src="https://vulnerable-website.com" width="800" height="600"></iframe>
 </body>
 </html>
