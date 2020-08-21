@@ -1,1 +1,1 @@
-# Payloads for Web Applications Penetration Testing
+# Payloads for Penetration Tester and Bug Bounty Hunters
