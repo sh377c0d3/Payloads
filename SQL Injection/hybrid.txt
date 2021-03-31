@@ -220,6 +220,8 @@ case 1 when 's' then 2 end
 case when 2 then 3 end
 case when 's' then 3 end
 case when f(1) then 3 end
+'UNION ALL SELECT version(),version(),version()#
+'UNION ALL SELECT version(),version(),version()-- 
 -1 union select table_name asda from information_schema.tables
 -1 union select table_name "asda" from information_schema.tables
 -1 union select table_name `asda` from information_schema.tables
