@@ -1,0 +1,24 @@
+password
+dbpassword
+dbuser
+access_key
+secret_access_key
+bucket_password
+redis_password
+root_password
+filename:.env MAIL_HOST=smtp.gmail.com
+extension:sql mysql dump
+filename:.npmrc _auth
+filename:.dockercfg auth
+extension:pem private
+extension:ppk private
+filename:id_rsa or filename:id_dsa
+extension:sql mysql dump
+extension:sql mysql dump password
+filename:credentials aws_access_key_id
+filename:.s3cfg
+filename:wp-config.php
+filename:.htpasswd
+filename:.env DB_USERNAME NOT homestead
+filename:.env MAIL_HOST=smtp.gmail.com
+filename:.git-credentials
