@@ -1,0 +1,17 @@
+{
+    "flags": "-iE",
+     "patterns": [
+"admin",
+"jenkins",
+"test",
+"proxy",
+"stage",
+"test",
+"dev",
+"devops",
+"staff",
+"db",
+"qa",
+"internal"
+]
+}
