@@ -1,0 +1,8 @@
+(&(sn=administrator)(password=*))    : OK
+(&(sn=administrator)(password=A*))   : KO
+(&(sn=administrator)(password=B*))   : KO
+...
+(&(sn=administrator)(password=M*))   : OK
+(&(sn=administrator)(password=MA*))  : KO
+(&(sn=administrator)(password=MB*))  : KO
+...
