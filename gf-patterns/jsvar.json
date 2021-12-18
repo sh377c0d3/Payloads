@@ -1,4 +1,0 @@
-{
-"flags": "-HanroE",
-  "pattern": "var [a-z0-9_]+\\=."
-}
