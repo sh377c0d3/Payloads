@@ -1124,7 +1124,7 @@ echo $head."<center><p align='center'>
 <b><font color=red>
 ".$logotxt."</b></font>
 Version 18.09.Build.1.(beta)<br>
-Coded By : Boudjada Yasser(Root96)<br><br></center>
+Coded By : yasserbdj96<br><br></center>
 <font color=red>Update : 2018/09/18</font><br>
 -design new theme (blackarch theme)& fix last theme error.<br><br>
 <font color=red>Update : 2017/12/21</font><br>
