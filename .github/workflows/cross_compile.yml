@@ -1,0 +1,50 @@
+name: Publish
+
+on:
+  push:
+    tags:
+      - 'v*.*.*'
+
+jobs:
+  publish:
+    name: Publish for ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        name: [
+            linux,
+            windows,
+            macos
+        ]
+
+        include:
+          - name: linux
+            os: ubuntu-latest
+            artifact_name: target/release/lemmeknow
+            asset_name: lemmeknow-linux
+          - name: windows
+            os: windows-latest
+            artifact_name: target/release/lemmeknow.exe
+            asset_name: lemmeknow-windows.exe
+          - name: macos
+            os: macos-latest
+            artifact_name: target/release/lemmeknow
+            asset_name: lemmeknow-macos
+
+    steps:
+    - uses: actions/checkout@v1
+
+    - uses: actions-rs/toolchain@v1
+      with:
+        profile: minimal
+        toolchain: stable
+
+    - name: Build
+      run: |
+       cargo build --release
+       mv ${{ matrix.artifact_name }} ${{ matrix.asset_name }}
+
+    - name: Release
+      uses: softprops/action-gh-release@v1
+      with:
+        files: ${{ matrix.asset_name }}
