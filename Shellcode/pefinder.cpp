@@ -1,6 +1,8 @@
 // pefinder by scriptjunkie
 // simple utility to detect DEP/ASLR status of binaries
 
+// Note: If a process manually enables DEP, but the NX_COMPAT flag is not in the header, it will be displayed as DEP not enabled, but that won't really be true.
+
 #define WIN32_LEAN_AND_MEAN
 #include <Windows.h>
 #include <stdio.h>
