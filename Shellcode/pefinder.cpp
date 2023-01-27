@@ -1,6 +1,8 @@
 // pefinder by scriptjunkie
 // simple utility to detect DEP/ASLR status of binaries
 
+// compiled pefinder link: http://www.scriptjunkie.us/files/pefinder.zip
+
 #define WIN32_LEAN_AND_MEAN
 #include <Windows.h>
 #include <stdio.h>
