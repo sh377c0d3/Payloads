@@ -1,5 +1,4 @@
 #!/bin/bash
-#!/bin/bash
 set -ex
 
 OS=$(uname -s | tr A-Z a-z)
