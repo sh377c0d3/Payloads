@@ -15,6 +15,9 @@ case $OS in
       arch)
         pacman -S exiftool stegsnow stegno
         ;;
+      void)
+        xbps-install exiftool stegsnow
+        ;;
       *)
         echo -n "unsupported linux distro  manually install exiftool,stegsnow,stegno"
         ;;
